@@ -4,10 +4,9 @@ number = random.randint(-10, 10)
 i = -10
 while (i != number):
     i += 1
-    print("the random value is :", number)
 if (number > 0):
-    print("is positive")
+    print(number, "is positive")
 if (number == 0):
-    print("is zero")
+    print(number, "is zero")
 if (number < 0):
-    print("is negative")
+    print(number, "is negative")
