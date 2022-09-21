@@ -1,7 +1,7 @@
-The "0-add_integer" module
+The ``100-matrix_mul`` module
 ===================
 
-Using "add_integer"
+Using ``matrix_mul``
 -------------------
 import module:
          >>> add_integer = __import__("0-add_integer").add_integer
