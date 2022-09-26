@@ -1,3 +1,7 @@
-#!/usr/bin/pyhton3
+#!/usr/bin/python3
+""" module 0-lookup contains one function: lookup """
+
+
 def lookup(obj):
-    return obj.list
+    """ returns a list of available attributes and methods of an object """
+    return dir(obj)
