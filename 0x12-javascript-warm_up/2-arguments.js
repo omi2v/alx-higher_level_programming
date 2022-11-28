@@ -6,4 +6,4 @@ if (argCount < 1) {
   console.log('Argument found');
 } else {
   console.log('Arguments found');
-}	
+}
