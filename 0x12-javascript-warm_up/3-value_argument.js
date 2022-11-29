@@ -1,6 +1,7 @@
 #!/bin/usr/node
-const coArg = 2;
-if(coArg < 0)
-console.log('No argument');
-else
-console.log(coArg);
+let arg = process.argv[2];
+if (arg === undefined) {
+  console.log('No argument');
+} else {
+  console.log(process.argv[2]);
+}
