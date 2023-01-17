@@ -1,4 +1,6 @@
-t fs = require('fs');
+#!/usr/bin/node
+// A script that write a string
+const fs = require('fs');
 const file = process.argv[2];
 const write_ = process.argv[3];
 
